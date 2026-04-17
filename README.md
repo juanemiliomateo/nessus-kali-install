@@ -21,7 +21,7 @@ Ve a la carpeta donde se encuentra el archivo <strong><i>.deb</i></strong> y haz
 <img src="Pictures/Pic 2.jpg">
 
 
-Una vez en la terminal, ejecuta el comando <b><i>sudo dpkg -i "filename".deb</i></b> para instalar Nessus. (Reemplaza filename por el nombre del archivo de Nessus).
+Una vez en la terminal, ejecuta el comando <b><i>sudo dpkg -i "filename".deb</i></b> o <b><i>sudo apt install ./"filename".deb</i></b> para instalar Nessus. (Reemplaza filename por el nombre del archivo de Nessus).
 <p>Después de instalarlo, inicia el servicio de Nessus ejecutando el comando <b><i>systemctl start nessusd</i></b>.</p>
 <p>Confirma si el servicio de Nessus está activo ejecutando el comando <b><i>systemctl status nessusd</i></b>.</p>
 <p>Una vez que esté activo, abre el navegador web en Kali (Firefox) y escribe <b><i>https://kali:8834</i></b> o haz clic directamente en el enlace que aparecerá en la parte inferior después de ejecutar el <b>comando de inicio</b>, como se muestra abajo.</p>
